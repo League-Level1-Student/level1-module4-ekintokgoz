@@ -122,7 +122,7 @@ public class Jeopardy implements ActionListener {
 			// Call the askQuestion() method with a harder question
 
 		// Clear the text on the button that was pressed (set the button text to nothing)
-
+		
 	}
 
 	private void askQuestion(String question, String correctAnswer, int prizeMoney) {
