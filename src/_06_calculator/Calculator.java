@@ -15,6 +15,7 @@ public class Calculator implements ActionListener {
 		int num1 = Integer.parseInt(n1);
 		int num2 = Integer.parseInt(n2);
 		int addNum = num1 += num2;
+		System.out.println(addNum);
 		return addNum;
 	}
 	public int subtract() {
@@ -23,6 +24,7 @@ public class Calculator implements ActionListener {
 		int num1 = Integer.parseInt(n1);
 		int num2 = Integer.parseInt(n2);
 		int subNum = num1-= num2;
+		System.out.println(subNum);
 		return subNum;
 	}
 	public int multiply() {
@@ -31,6 +33,7 @@ public class Calculator implements ActionListener {
 		int num1 = Integer.parseInt(n1);
 		int num2 = Integer.parseInt(n2);
 		int mulNum = num1 * num2;
+		System.out.println(mulNum);
 		return mulNum;
 	}
 	public int divide() {
@@ -39,6 +42,7 @@ public class Calculator implements ActionListener {
 		int num1 = Integer.parseInt(n1);
 		int num2 = Integer.parseInt(n2);
 		int divNum = num1/num2;
+		System.out.println(divNum);
 		return divNum;
 	}
 	
