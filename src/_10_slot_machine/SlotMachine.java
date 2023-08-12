@@ -37,6 +37,7 @@ public class SlotMachine implements ActionListener {
 	frame.setSize(300,600);
 	frame.setVisible(true);
 	spin();
+	
 	}
 	
 	
@@ -135,6 +136,7 @@ public class SlotMachine implements ActionListener {
 		}
 		if(checkForWin()) {
 			score+=1;
+			scoreLabel.setText("Score: " + score);
 		}
 	}
 
